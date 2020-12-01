@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Medi_Consult</string>
+    <string name="lable_login_btn">Register</string>
+    <string name="text1">Already have an account?<b>sign in</b></string>
+    <string name="text2">Create an account to access \nall feature</string>
+    <string name="text3">Already have an account?<b><font fgcolor='#8E24AA'> Sign in!</font></b></string>
+    <string name="text4">Welcome Back and\nGlad to see you</string>
+    <string name="text5">Dont have an account?<b><font fgcolor='#8E24AA'> Sign up!</font></b></string>
+    <string name="txt_welcome">Welcome</string>
+
+    <string name="linkdoc">
+        <a href="https://www.1mg.com/online-doctor-consultation">Connect with Doctor click here</a>
+    </string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalapp">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".diarrhoea_constipation"></activity>
+        <activity android:name=".weakness_fatigue" />
+        <activity android:name=".stomach_ache" />
+        <activity android:name=".frequent_urination" />
+        <activity android:name=".indigestion" />
+        <activity android:name=".blurred_vision" />
+        <activity android:name=".chest_pain" />
+        <activity android:name=".dry_cough" />
+        <activity android:name=".headache" />
+        <activity android:name=".sweating" />
+        <activity android:name=".nausea" />
+        <activity android:name=".vomiting" />
+        <activity android:name=".fever" />
+        <activity android:name=".contact_doctor_Activity" />
+        <activity android:name=".sos_call_Activity" />
+        <activity android:name=".SymptomsActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

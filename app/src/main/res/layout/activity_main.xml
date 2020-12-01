@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bckg_gradient"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/contactuslogo"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15"
+        app:srcCompat="@drawable/icon" >
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/doc"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text="Medi Consult"
+        android:textColor="#F3214B"
+        android:textSize="50sp"
+        android:fontFamily="@font/nunito_semibold"
+        android:gravity="center_horizontal" />
+
+
+    <TextView
+        android:id="@+id/mail_cs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="mediconsult578@gmail.com"
+        android:layout_marginLeft="10dp"
+        android:textColor="#0B0A0A"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.602" />
+
+</LinearLayout>

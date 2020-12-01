@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".SignupActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="30dp"
+        android:text="Sign up"
+        android:id="@+id/text"
+        android:textSize="25sp"
+        android:fontFamily="@font/nunito_semibold"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/text"
+        android:layout_marginTop="20dp"
+        android:text="@string/text2"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:id="@+id/text1"
+        android:fontFamily="@font/nunito_regular"
+        android:layout_marginLeft="30dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        app:layout_constraintTop_toBottomOf="@id/text1"
+        android:layout_marginTop="37dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="  Email address"
+        android:textSize="14sp"
+        android:fontFamily="@font/nunito_regular"
+        android:id="@+id/emailText"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toBottomOf="@id/emailText"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_text_back"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingLeft="15dp"
+        android:singleLine="true"
+        android:fontFamily="@font/nunito_regular"
+        android:id="@+id/emailEdit"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/emailEdit"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="  Username"
+        android:textSize="14sp"
+        android:fontFamily="@font/nunito_regular"
+        android:id="@+id/usernameText"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        app:layout_constraintTop_toBottomOf="@id/usernameText"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_text_back"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingLeft="15dp"
+        android:singleLine="true"
+        android:fontFamily="@font/nunito_regular"
+        android:id="@+id/usernameEdit"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/usernameEdit"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text=" Password"
+        android:textSize="14sp"
+        android:fontFamily="@font/nunito_regular"
+        android:id="@+id/passwordtext"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        app:layout_constraintTop_toBottomOf="@id/passwordtext"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_text_back"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingLeft="15dp"
+        android:singleLine="true"
+        android:fontFamily="@font/nunito_regular"
+        android:id="@+id/passwordEdit"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/passwordEdit"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text=" Confirm Password"
+        android:textSize="14sp"
+        android:fontFamily="@font/nunito_regular"
+        android:id="@+id/confirmpasswordText"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        app:layout_constraintTop_toBottomOf="@id/confirmpasswordText"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_text_back"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingLeft="15dp"
+        android:singleLine="true"
+        android:fontFamily="@font/nunito_regular"
+        android:id="@+id/confirmpasswordEdit"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/confirmpasswordEdit"
+        android:scaleX="0.80"
+        android:scaleY="0.80"
+        android:checked="true"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="35dp"
+        android:id="@+id/check"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/check"
+        app:layout_constraintTop_toBottomOf="@id/confirmpasswordEdit"
+        android:text="I accept the terms and conditions"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:textSize="13sp"
+        android:id="@+id/terms"
+        android:fontFamily="@font/nunito_regular"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="40dp"
+        />
+
+    <Button
+        android:id="@+id/btn_sign"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="77dp"
+        android:layout_marginLeft="77dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginRight="78dp"
+        android:text="@string/lable_login_btn"
+        android:background="@color/colorPrimary"
+        android:textSize="27sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/terms">
+
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btn_sign"
+        android:textColor="#E83D07"
+        android:layout_marginTop="10dp"
+        android:text="@string/text3"
+        android:id="@+id/signin"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/nunito_semibold"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
