@@ -12,8 +12,6 @@ An App a Day Keeps a Doctor away :wink:
 |[Modules](https://github.com/Lochan2001/AAYUSH-Medi_consult/edit/master/README.md#modules)|
 |[Problems Encountered](https://github.com/Lochan2001/AAYUSH-Medi_consult/edit/master/README.md#problems-encountered)|
 
-
-https://github.com/Lochan2001/AAYUSH-Medi_consult/edit/master/README.md
 ## Abstract
 This project is based on the Mobile Application for Online Consultancy for people all around the world. This App basically allows us to Consult ourselves while sitting at our Home.
 
